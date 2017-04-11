@@ -1,0 +1,78 @@
+
+#header{
+	width:100%;
+	height:200px;
+	background-image:   url(timg11.jpg);
+	font-size: 200%;
+	text-align: center;
+	color: red;
+}
+#main{
+	width:100%;
+	height: 800px;
+	
+
+}
+#left{
+	width: 80%;
+	height:800px;
+	float: left;
+}
+.four
+{
+
+width:46%;
+height: 360px;
+ background-color: #EDBB40;
+float: left;
+margin: 10px;
+padding: 10px;
+}
+#right
+{
+	width :20%;
+	height:800px;
+	background-image:   url(timg.jpg);
+	background-color:  #efe5d0;
+	float: right;
+
+
+}
+#lianjie li{
+	font-family: sans-serif;
+	text-decoration: underline;
+	height:120px;
+	font-size: 30px;
+	width: 80%;
+	float: right;
+}
+#lianjie a{
+	font-family: sans-serif;
+	text-decoration: underline;
+	color: #b76666;
+	font-size: 30px;
+	width: 80%;
+	float: right;
+	
+}
+#clear{
+	clear: both;
+	width: 0px;
+	height: 0px;
+
+}
+#footer
+{
+
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+
+}
+#h2{
+	text-align: center;
+	font-weight: bold;
+	font-family: monospace,sans-serif;
+	
+}
