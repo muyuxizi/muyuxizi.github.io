@@ -7,17 +7,20 @@
 	
 </head>
 <body>
-	<div id="header">
+	<img src="12572201_1343370270888.jpg" alt="sorry" id="abcd"  width="100%"  height="1050px" onclick="bizhi();">
+
+	<div id="header" >
 	
-	<p>   刘凯峰的第一个主页
-	</p>
+	<p id="ziti"> 刘凯峰的第一个主页</p>
+	
+
 	</div>
 	<div  id="main">
 	<div  id="left">
 	<div class="four">
 		<h2>日志</h2>
 		<p>
-            20xx,my friends an me went to xx
+            20xx,my friends and me went to xx
 		</p>
 	</div>
 	<div class="four">
@@ -46,7 +49,7 @@
 	<div  id="clear"></div>
 	</div>
 	<div  id="footer">
-	<p>欢迎来到我的主页，希望下次再来</p>
+	<p id="ziti2">欢迎来到我的主页，希望下次再来</p>
 	</div>
 </body>
 </html>
@@ -56,5 +59,14 @@
  	var obj=document.getElementById('guodong');
  	obj.src.indexOf('2009529132513620886921')>=0?obj.src="20160625005.jpg":obj.src="2009529132513620886921.jpg";
 
+}
+function bizhi()
+{
+	var obj1=document.getElementById('abcd');
+	obj1.style.opacity="0";
+	setTimeout("document.getElementById('abcd').style.display='none'",1500);
+	
+
+ 	
 }
 </script>
