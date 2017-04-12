@@ -1,0 +1,124 @@
+
+#header{
+	width:100%;
+	height:200px;
+	background-image:   url(timg11.jpg);
+	font-size: 200%;
+	text-align: center;
+	padding: 15px;
+	margin: 10px;
+	color: red;
+
+}
+#ziti{animation:myfirst 10s infinite;}
+#ziti2{animation:myfirst 10s infinite;}
+#main{
+	width:100%;
+	height: 800px;
+	
+
+}
+#left{
+	width: 80%;
+	height:800px;
+	float: left;
+}
+.four
+{
+
+width:46%;
+height: 360px;
+ background-color: #FEDFE1;
+float: left;
+margin: 10px;
+padding: 10px;
+}
+#right
+{
+	width :20%;
+	height:800px;
+	background-image:   url(timg2.jpg);
+	background-color:  #efe5d0;
+	float: right;
+
+
+}
+#lianjie li{
+	font-family: sans-serif;
+	text-decoration: underline;
+	height:120px;
+	font-size: 30px;
+	width: 80%;
+	float: right;
+}
+#lianjie a{
+	font-family: sans-serif;
+	text-decoration: underline;
+	color: #E1A679;
+	font-size: 30px;
+	width: 80%;
+	float: right;
+	
+}
+#clear{
+	clear: both;
+	width: 0px;
+	height: 0px;
+
+}
+#footer
+{
+
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  font-family:  Arial,Verdana,sans-serif;
+
+}
+#h2{
+	text-align: center;
+	font-weight: bold;
+	font-family: monospace,sans-serif;
+	
+}
+#abcd
+{
+	position: absolute;
+	
+	z-index: 100;
+	
+}
+#lianjie a{
+	transition: 1s,all;
+
+}
+#abcd 
+{
+	opacity: 1;
+	transition:all 1.5s;
+}
+#lianjie a:hover
+{	
+
+	color: red;
+}
+#lianjie a:visited
+{
+ 	color:red;
+}
+@keyframes myfirst
+{
+
+	0% {color:#B481BB;}
+	25%{color: #58B2DC;}
+	50%{color:#E1A679;}
+	75%{color: #B5495B;}
+	100%{color: #E3916E;}
+}
+@keyframes myfirst1
+{
+	0% {color:#B481BB;}
+	50%{color: #E79460;}
+	100%{color: red;}
+}
